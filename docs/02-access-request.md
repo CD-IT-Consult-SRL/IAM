@@ -227,6 +227,32 @@ Provisioning can be:
 - API-based
 - SCIM-based
 - LDAP-based
+- Active Directory (AD)
+- Microsoft Entra ID
+- Other directories, applications and cloud platforms
+
+Examples of provisioning targets and mechanisms include:
+
+```text
+IAM / IGA
+   |
+   +-- Active Directory
+   +-- Microsoft Entra ID
+   +-- LDAP directories
+   +-- SCIM
+   +-- REST APIs
+   +-- SaaS applications
+   +-- Business applications
+   +-- Databases / other target systems
+```
+
+These terms are not equivalent:
+
+- **LDAP** is a directory access protocol.
+- **Active Directory** is a directory service that supports protocols including LDAP and Kerberos.
+- **Microsoft Entra ID** is Microsoft's cloud identity and access platform.
+- **SCIM** is a standard protocol commonly used to provision identities and groups between systems.
+- **Connectors/APIs** allow IAM or IGA platforms to provision target systems using their supported interfaces.
 
 ---
 
